@@ -1,0 +1,46 @@
+{
+  "name": "virtualresume",
+  "version": "1.0.0",
+  "description": "A react based web application built to serve as a digital, interactive resume",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server-dev": "nodemon server/server.js",
+    "build": "webpack -d",
+    "build-dev": "webpack -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seth-way/virtualResume.git"
+  },
+  "author": "sway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seth-way/virtualResume/issues"
+  },
+  "homepage": "https://github.com/seth-way/virtualResume#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "favicon": "0.0.2",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "nodemon": "^2.0.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
