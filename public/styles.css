@@ -1,0 +1,92 @@
+body {
+    border: thick solid white;
+    color: white;
+    background-color: #002244;
+    font-family: 'Abril Fatface', cursive;
+    text-decoration: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.iconContainer{
+    display: flex;
+}
+
+.btn-outline-info {
+    color: #69BE28;
+    border-color: #69BE28;
+}
+
+.footerIcon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1.5rem;
+}
+
+.iconHovered {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    font-size: x-large;
+    padding-top: 3px;
+}
+
+.fade-enter {
+    opacity: 0.01;
+}
+  
+.fade-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+  
+.fade-leave {
+    opacity: 1;
+}
+  
+.fade-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+#appContainer {
+    min-height: 100%;
+    margin-bottom: -330px;
+    position: relative;
+}
+
+#headerContainer{
+    min-height: 10%;
+    max-height: 200px;
+    width: 100%;
+    background-image: url('./resources/sunset.png');
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#footer {
+    height: 70px;
+    width: calc(100% - 15px);
+    bottom: 0px;
+    position: fixed;
+    border-bottom: thick solid white;
+    display: flex;
+    justify-content: center;
+}
